@@ -192,6 +192,16 @@ const routes = [{
     path: '/parent3',
     name: 'ParentComponent3',
     component: () => import( /* webpackChunkName: "parent" */ '../views/ParentComponent3.vue')
+  },
+  {
+    path: '/parent4',
+    name: 'ParentComponent4',
+    component: () => import( /* webpackChunkName: "parent" */ '../views/ParentComponent4.vue')
+  },
+  {
+    path: '/parent5',
+    name: 'ParentComponent5',
+    component: () => import( /* webpackChunkName: "parent" */ '../views/ParentComponent5.vue')
   }
 ]
 
