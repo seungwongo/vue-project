@@ -152,6 +152,11 @@ const routes = [{
     path: '/renderingvif',
     name: 'RenderingVIf',
     component: () => import( /* webpackChunkName: "parent" */ '../views/RenderingVIf.vue')
+  },
+  {
+    path: '/eventclick',
+    name: 'EventClick',
+    component: () => import( /* webpackChunkName: "parent" */ '../views/EventClick.vue')
   }
 ]
 
