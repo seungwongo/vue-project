@@ -87,6 +87,11 @@ const routes = [{
     path: '/databindinginputtext',
     name: 'DataBindingInputText',
     component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingInputText.vue')
+  },
+  {
+    path: '/databindinginputnumber',
+    name: 'DataBindingInputNumber',
+    component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingInputNumber.vue')
   }
 ]
 
