@@ -49,11 +49,6 @@ const routes = [{
     component: () => import( /* webpackPrefetch: true, webpackChunkName: "provide" */ '../views/ProvideInject.vue')
   },
   {
-    path: '/parent',
-    name: 'ParentComponent',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/ParentComponent.vue')
-  },
-  {
     path: '/transition',
     name: 'Transition',
     component: () => import( /* webpackChunkName: "parent" */ '../views/Transition.vue')
@@ -182,6 +177,21 @@ const routes = [{
     path: '/watch2',
     name: 'Watch2',
     component: () => import( /* webpackChunkName: "parent" */ '../views/Watch2.vue')
+  },
+  {
+    path: '/parent',
+    name: 'ParentComponent',
+    component: () => import( /* webpackChunkName: "parent" */ '../views/ParentComponent.vue')
+  },
+  {
+    path: '/parent2',
+    name: 'ParentComponent2',
+    component: () => import( /* webpackChunkName: "parent" */ '../views/ParentComponent2.vue')
+  },
+  {
+    path: '/parent3',
+    name: 'ParentComponent3',
+    component: () => import( /* webpackChunkName: "parent" */ '../views/ParentComponent3.vue')
   }
 ]
 
