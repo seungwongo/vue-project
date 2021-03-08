@@ -59,9 +59,9 @@ const routes = [{
     component: () => import( /* webpackChunkName: "parent" */ '../views/Transition.vue')
   },
   {
-    path: '/login',
-    name: 'Login',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/Login.vue')
+    path: '/kakaologin',
+    name: 'KakaoLogin',
+    component: () => import( /* webpackChunkName: "parent" */ '../views/KakaoLogin.vue')
   },
   {
     path: '/naverlogin',
