@@ -117,6 +117,11 @@ const routes = [{
     path: '/databindingradio',
     name: 'DataBindingRadio',
     component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingRadio.vue')
+  },
+  {
+    path: '/databindingattribue',
+    name: 'DataBindingAttribue',
+    component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingAttribue.vue')
   }
 ]
 
