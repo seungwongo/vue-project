@@ -172,6 +172,16 @@ const routes = [{
     path: '/computed',
     name: 'Computed',
     component: () => import( /* webpackChunkName: "parent" */ '../views/Computed.vue')
+  },
+  {
+    path: '/watch',
+    name: 'Watch',
+    component: () => import( /* webpackChunkName: "parent" */ '../views/Watch.vue')
+  },
+  {
+    path: '/watch2',
+    name: 'Watch2',
+    component: () => import( /* webpackChunkName: "parent" */ '../views/Watch2.vue')
   }
 ]
 
