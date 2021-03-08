@@ -77,6 +77,11 @@ const routes = [{
     path: '/store',
     name: 'StoreAccess',
     component: () => import( /* webpackChunkName: "parent" */ '../views/StoreAccess.vue')
+  },
+  {
+    path: '/databindinghtml',
+    name: 'DataBindingHtml',
+    component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingHtml.vue')
   }
 ]
 

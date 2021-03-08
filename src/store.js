@@ -25,6 +25,7 @@ const store = createStore({
   },
   actions: {
     increment(context) {
+      //비동기 처리 로직 수행 가능
       context.commit('increment')
     }
   }
