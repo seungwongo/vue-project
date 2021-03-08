@@ -72,6 +72,11 @@ const routes = [{
     path: '/googlelogin',
     name: 'GoogleLogin',
     component: () => import( /* webpackChunkName: "parent" */ '../views/GoogleLogin.vue')
+  },
+  {
+    path: '/store',
+    name: 'StoreAccess',
+    component: () => import( /* webpackChunkName: "parent" */ '../views/StoreAccess.vue')
   }
 ]
 
