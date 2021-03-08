@@ -97,6 +97,11 @@ const routes = [{
     path: '/databindingtextarea',
     name: 'DataBindingTextarea',
     component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingTextarea.vue')
+  },
+  {
+    path: '/databindingselect',
+    name: 'DataBindingSelect',
+    component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingSelect.vue')
   }
 ]
 
