@@ -22,20 +22,16 @@
 </template>
 <script>
 export default {
- name: '',
- components: [],
  data() {
    return {
-      productList: []
+      productList: [
+        {"product_name":"기계식키보드","price":25000,"category":"노트북/태블릿","delivery_price":5000},
+        {"product_name":"무선마우스","price":12000,"category":"노트북/태블릿","delivery_price":5000},
+        {"product_name":"아이패드","price":725000,"category":"노트북/태블릿","delivery_price":5000},
+        {"product_name":"태블릿거치대","price":32000,"category":"노트북/태블릿","delivery_price":5000},
+        {"product_name":"무선충전기","price":42000,"category":"노트북/태블릿","delivery_price":5000}
+      ]
    };
- },
- created() {
-   this.getList();
- },
- methods: {
-   async getList() {
-     this.productList = await this.$api("https://ada1e106-f1b6-4ff2-be04-e311ecba599d.mock.pstmn.io/list","get");
-   }
  }
 }
 </script>

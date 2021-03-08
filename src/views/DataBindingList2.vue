@@ -1,6 +1,5 @@
 <template>
 <div>
- <button type="button" @click="getList">조회</button>
  <table>
    <thead>
      <tr>
@@ -29,7 +28,7 @@ data() {
   };
 },
 created() {
- //  this.getList();
+  this.getList();
 },
 methods: {
   async getList() {
