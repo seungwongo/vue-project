@@ -127,6 +127,11 @@ const routes = [{
     path: '/databindingbutton',
     name: 'DataBindingButton',
     component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingButton.vue')
+  },
+  {
+    path: '/databindingclass',
+    name: 'DataBindingClass',
+    component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingClass.vue')
   }
 ]
 
