@@ -147,6 +147,11 @@ const routes = [{
     path: '/databindinglist',
     name: 'DataBindingList',
     component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingList.vue')
+  },
+  {
+    path: '/renderingvif',
+    name: 'RenderingVIf',
+    component: () => import( /* webpackChunkName: "parent" */ '../views/RenderingVIf.vue')
   }
 ]
 
