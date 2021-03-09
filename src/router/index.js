@@ -43,127 +43,127 @@ const routes = [{
   {
     path: '/kakaologin',
     name: 'KakaoLogin',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/KakaoLogin.vue')
+    component: () => import( /* webpackChunkName: "kakaologin" */ '../views/KakaoLogin.vue')
   },
   {
     path: '/naverlogin',
     name: 'NaverLogin',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/NaverLogin.vue')
+    component: () => import( /* webpackChunkName: "naverlogin" */ '../views/NaverLogin.vue')
   },
   {
     path: '/googlelogin',
     name: 'GoogleLogin',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/GoogleLogin.vue')
+    component: () => import( /* webpackChunkName: "googlelogin" */ '../views/GoogleLogin.vue')
   },
   {
     path: '/store',
     name: 'StoreAccess',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/StoreAccess.vue')
+    component: () => import( /* webpackChunkName: "store" */ '../views/StoreAccess.vue')
   },
   {
     path: '/databindinghtml',
     name: 'DataBindingHtml',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingHtml.vue')
+    component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBindingHtml.vue')
   },
   {
     path: '/databindinginputtext',
     name: 'DataBindingInputText',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingInputText.vue')
+    component: () => import( /* webpackChunkName: "databindinginputtext" */ '../views/DataBindingInputText.vue')
   },
   {
     path: '/databindinginputnumber',
     name: 'DataBindingInputNumber',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingInputNumber.vue')
+    component: () => import( /* webpackChunkName: "databindinginputnumber" */ '../views/DataBindingInputNumber.vue')
   },
   {
     path: '/databindingtextarea',
     name: 'DataBindingTextarea',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingTextarea.vue')
+    component: () => import( /* webpackChunkName: "databindingtextarea" */ '../views/DataBindingTextarea.vue')
   },
   {
     path: '/databindingselect',
     name: 'DataBindingSelect',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingSelect.vue')
+    component: () => import( /* webpackChunkName: "databindingselect" */ '../views/DataBindingSelect.vue')
   },
   {
     path: '/databindingcheckbox',
     name: 'DataBindingCheckbox',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingCheckbox.vue')
+    component: () => import( /* webpackChunkName: "databindingcheckbox" */ '../views/DataBindingCheckbox.vue')
   },
   {
     path: '/databindingcheckbox2',
     name: 'DataBindingCheckbox2',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingCheckbox2.vue')
+    component: () => import( /* webpackChunkName: "databindingcheckbox2" */ '../views/DataBindingCheckbox2.vue')
   },
   {
     path: '/databindingradio',
     name: 'DataBindingRadio',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingRadio.vue')
+    component: () => import( /* webpackChunkName: "databindingradio" */ '../views/DataBindingRadio.vue')
   },
   {
     path: '/databindingattribue',
     name: 'DataBindingAttribue',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingAttribue.vue')
+    component: () => import( /* webpackChunkName: "databindingattribue" */ '../views/DataBindingAttribue.vue')
   },
   {
     path: '/databindingbutton',
     name: 'DataBindingButton',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingButton.vue')
+    component: () => import( /* webpackChunkName: "databindingbutton" */ '../views/DataBindingButton.vue')
   },
   {
     path: '/databindingclass',
     name: 'DataBindingClass',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingClass.vue')
+    component: () => import( /* webpackChunkName: "databindingclass" */ '../views/DataBindingClass.vue')
   },
   {
     path: '/databindingclass2',
     name: 'DataBindingClass2',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingClass2.vue')
+    component: () => import( /* webpackChunkName: "databindingclass2" */ '../views/DataBindingClass2.vue')
   },
   {
     path: '/databindingstyle',
     name: 'DataBindingStyle',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingStyle.vue')
+    component: () => import( /* webpackChunkName: "databindingstyle" */ '../views/DataBindingStyle.vue')
   },
   {
     path: '/databindinglist',
     name: 'DataBindingList',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingList.vue')
+    component: () => import( /* webpackChunkName: "databindinglist" */ '../views/DataBindingList.vue')
   },
   {
     path: '/databindinglist2',
     name: 'DataBindingList2',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/DataBindingList2.vue')
+    component: () => import( /* webpackChunkName: "databindinglist2" */ '../views/DataBindingList2.vue')
   },
   {
     path: '/renderingvif',
     name: 'RenderingVIf',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/RenderingVIf.vue')
+    component: () => import( /* webpackChunkName: "renderingvif" */ '../views/RenderingVIf.vue')
   },
   {
     path: '/eventclick',
     name: 'EventClick',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/EventClick.vue')
+    component: () => import( /* webpackChunkName: "eventclick" */ '../views/EventClick.vue')
   },
   {
     path: '/eventchange',
     name: 'EventChange',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/EventChange.vue')
+    component: () => import( /* webpackChunkName: "eventchange" */ '../views/EventChange.vue')
   },
   {
     path: '/computed',
     name: 'Computed',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/Computed.vue')
+    component: () => import( /* webpackChunkName: "computed" */ '../views/Computed.vue')
   },
   {
     path: '/watch',
     name: 'Watch',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/Watch.vue')
+    component: () => import( /* webpackChunkName: "watch" */ '../views/Watch.vue')
   },
   {
     path: '/watch2',
     name: 'Watch2',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/Watch2.vue')
+    component: () => import( /* webpackChunkName: "watch2" */ '../views/Watch2.vue')
   },
   {
     path: '/parent',
@@ -173,88 +173,67 @@ const routes = [{
   {
     path: '/parent2',
     name: 'ParentComponent2',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/ParentComponent2.vue')
+    component: () => import( /* webpackChunkName: "parent2" */ '../views/ParentComponent2.vue')
   },
   {
     path: '/parent3',
     name: 'ParentComponent3',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/ParentComponent3.vue')
+    component: () => import( /* webpackChunkName: "parent3" */ '../views/ParentComponent3.vue')
   },
   {
     path: '/parent4',
     name: 'ParentComponent4',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/ParentComponent4.vue')
+    component: () => import( /* webpackChunkName: "parent4" */ '../views/ParentComponent4.vue')
   },
   {
     path: '/parent5',
     name: 'ParentComponent5',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/ParentComponent5.vue')
+    component: () => import( /* webpackChunkName: "parent5" */ '../views/ParentComponent5.vue')
   },
   {
     path: '/slot',
     name: 'SlotUseModalLayout',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/SlotUseModalLayout.vue')
+    component: () => import( /* webpackChunkName: "slot" */ '../views/SlotUseModalLayout.vue')
   },
   {
     path: '/calculator',
     name: 'Calculator',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/Calculator.vue')
+    component: () => import( /* webpackChunkName: "calculator" */ '../views/Calculator.vue')
   },
   {
     path: '/composition',
     name: 'Composition API',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import( /* webpackChunkName: "about" */ '../views/CompositionAPI.vue')
+    component: () => import( /* webpackChunkName: "composition" */ '../views/CompositionAPI.vue')
   },
   {
     path: '/composition2',
     name: 'Composition API',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import( /* webpackChunkName: "about" */ '../views/CompositionAPI2.vue')
+    component: () => import( /* webpackChunkName: "composition2" */ '../views/CompositionAPI2.vue')
   },
   {
     path: '/composition3',
     name: 'Composition API',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import( /* webpackChunkName: "about" */ '../views/CompositionAPI3.vue')
+    component: () => import( /* webpackChunkName: "composition3" */ '../views/CompositionAPI3.vue')
   },
   {
     path: '/composition4',
     name: 'Composition API',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import( /* webpackChunkName: "about" */ '../views/CompositionAPI4.vue')
+    component: () => import( /* webpackChunkName: "composition4" */ '../views/CompositionAPI4.vue')
   },
   {
     path: '/composition_provide',
     name: 'Composition API Provide',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import( /* webpackChunkName: "about" */ '../views/CompositionAPIProvide.vue')
+    component: () => import( /* webpackChunkName: "composition_provide" */ '../views/CompositionAPIProvide.vue')
   },
   {
     path: '/mixins',
     name: 'Mixins',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import( /* webpackChunkName: "about" */ '../views/Mixins.vue')
+    component: () => import( /* webpackChunkName: "mixins" */ '../views/Mixins.vue')
   },
   {
     path: '/plugins',
     name: 'Plugins',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import( /* webpackChunkName: "about" */ '../views/Plugins.vue')
+    component: () => import( /* webpackChunkName: "plugins" */ '../views/Plugins.vue')
   }
 ]
 
