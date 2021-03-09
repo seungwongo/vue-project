@@ -36,14 +36,6 @@ const routes = [{
     component: NestedComponent
   },
   {
-    path: '/composition',
-    name: 'Composition API',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import( /* webpackChunkName: "about" */ '../views/CompositionAPI4.vue')
-  },
-  {
     path: '/provide',
     name: 'ProvideInject',
     component: () => import( /* webpackPrefetch: true, webpackChunkName: "provide" */ '../views/ProvideInject.vue')
@@ -207,6 +199,38 @@ const routes = [{
     path: '/calculator',
     name: 'Calculator',
     component: () => import( /* webpackChunkName: "parent" */ '../views/Calculator.vue')
+  },
+  {
+    path: '/composition',
+    name: 'Composition API',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import( /* webpackChunkName: "about" */ '../views/CompositionAPI.vue')
+  },
+  {
+    path: '/composition2',
+    name: 'Composition API',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import( /* webpackChunkName: "about" */ '../views/CompositionAPI2.vue')
+  },
+  {
+    path: '/composition3',
+    name: 'Composition API',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import( /* webpackChunkName: "about" */ '../views/CompositionAPI3.vue')
+  },
+  {
+    path: '/composition4',
+    name: 'Composition API',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import( /* webpackChunkName: "about" */ '../views/CompositionAPI4.vue')
   }
 ]
 

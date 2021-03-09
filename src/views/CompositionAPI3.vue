@@ -11,7 +11,7 @@
  </div>
 </template>
 <script>
-import {reactive, computed, toRefs} from 'vue';
+import {reactive, computed, toRefs} from 'vue'; //toRefs 추가
  
 function plusCalculator() {
  let state = reactive({
@@ -20,13 +20,13 @@ function plusCalculator() {
      result: computed(() => parseInt(state.num1) + parseInt(state.num2))
    });
  
-   return toRefs(state);
+   return toRefs(state);  //반응형으로 선언된 num1, num2, result가 외부 function에서 정상적으로 동작하기 위해서는 toRefs를 사용해야 함 
 }
  
 export default {
  name: 'calculator',
  setup() {
-   let {num1, num2, result} = plusCalculator();
+   let {num1, num2, result} = plusCalculator(); //외부 function
  
    return {
      num1, num2, result
