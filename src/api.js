@@ -8,7 +8,7 @@ export default {
     console.log('믹스인 unmounted');
   },
   methods: {
-    async $api(url, method, data) {
+    async $callAPI(url, method, data) {
       return (await axios({
         method: method,
         url,
