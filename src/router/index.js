@@ -231,6 +231,14 @@ const routes = [{
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import( /* webpackChunkName: "about" */ '../views/CompositionAPI4.vue')
+  },
+  {
+    path: '/composition_provide',
+    name: 'Composition API Provide',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import( /* webpackChunkName: "about" */ '../views/CompositionAPIProvide.vue')
   }
 ]
 
