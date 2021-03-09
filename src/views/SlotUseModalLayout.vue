@@ -14,7 +14,7 @@
     </modal-layout>
 </template>
 <script>
-import ModalLayout from './SlotModalContainer';
+import ModalLayout from './SlotModalLayout';
 
 export default {
  components: {'modal-layout':ModalLayout}
