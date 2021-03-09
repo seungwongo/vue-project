@@ -202,6 +202,11 @@ const routes = [{
     path: '/parent5',
     name: 'ParentComponent5',
     component: () => import( /* webpackChunkName: "parent" */ '../views/ParentComponent5.vue')
+  },
+  {
+    path: '/slot',
+    name: 'SlotUseModalLayout',
+    component: () => import( /* webpackChunkName: "parent" */ '../views/SlotUseModalLayout.vue')
   }
 ]
 
