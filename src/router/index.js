@@ -49,11 +49,6 @@ const routes = [{
     component: () => import( /* webpackPrefetch: true, webpackChunkName: "provide" */ '../views/ProvideInject.vue')
   },
   {
-    path: '/transition',
-    name: 'Transition',
-    component: () => import( /* webpackChunkName: "parent" */ '../views/Transition.vue')
-  },
-  {
     path: '/kakaologin',
     name: 'KakaoLogin',
     component: () => import( /* webpackChunkName: "parent" */ '../views/KakaoLogin.vue')
@@ -207,6 +202,11 @@ const routes = [{
     path: '/slot',
     name: 'SlotUseModalLayout',
     component: () => import( /* webpackChunkName: "parent" */ '../views/SlotUseModalLayout.vue')
+  },
+  {
+    path: '/calculator',
+    name: 'Calculator',
+    component: () => import( /* webpackChunkName: "parent" */ '../views/Calculator.vue')
   }
 ]
 
