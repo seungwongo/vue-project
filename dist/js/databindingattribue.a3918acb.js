@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["databindingattribue"],{"1a74":function(n,r,t){"use strict";t.r(r);var e=t("7a23");function i(n,r,t,i,a,c){return Object(e["p"])(),Object(e["d"])("div",null,[Object(e["g"])("img",{src:a.imgSrc},null,8,["src"])])}var a={data:function(){return{imgSrc:"https://kr.vuejs.org/images/logo.png"}}};a.render=i;r["default"]=a}}]);
+//# sourceMappingURL=databindingattribue.a3918acb.js.map

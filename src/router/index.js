@@ -61,6 +61,11 @@ const routes = [{
     component: () => import( /* webpackChunkName: "store" */ '../views/StoreAccess.vue')
   },
   {
+    path: '/databinding',
+    name: 'DataBinding',
+    component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBinding.vue')
+  },
+  {
     path: '/databindinghtml',
     name: 'DataBindingHtml',
     component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBindingHtml.vue')
@@ -101,9 +106,9 @@ const routes = [{
     component: () => import( /* webpackChunkName: "databindingradio" */ '../views/DataBindingRadio.vue')
   },
   {
-    path: '/databindingattribue',
-    name: 'DataBindingAttribue',
-    component: () => import( /* webpackChunkName: "databindingattribue" */ '../views/DataBindingAttribue.vue')
+    path: '/databindingattribute',
+    name: 'DataBindingAttribute',
+    component: () => import( /* webpackChunkName: "databindingattribue" */ '../views/DataBindingAttribute.vue')
   },
   {
     path: '/databindingbutton',

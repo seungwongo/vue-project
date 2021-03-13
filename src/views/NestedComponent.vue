@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PageTitle title="컴포넌트 사용 예제 페이지" />
+    <PageTitle title="부모 컴포넌트에서 자식 컴포넌트로 데이터 전달" />
   </div>
 </template>
 <script>

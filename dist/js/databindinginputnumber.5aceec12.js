@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["databindinginputnumber"],{b84e:function(n,e,u){"use strict";u.r(e);var t=u("7a23");function r(n,e,u,r,d,b){return Object(t["p"])(),Object(t["d"])("div",null,[Object(t["I"])(Object(t["g"])("input",{type:"number","onUpdate:modelValue":e[1]||(e[1]=function(n){return d.numberModel=n})},null,512),[[t["F"],d.numberModel,void 0,{number:!0}]])])}var d={data:function(){return{numberModel:3}}};d.render=r;e["default"]=d}}]);
+//# sourceMappingURL=databindinginputnumber.5aceec12.js.map

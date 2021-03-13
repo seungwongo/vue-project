@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["databindinginputtext"],{5615:function(e,t,n){"use strict";n.r(t);var u=n("7a23");function a(e,t,n,a,o,d){return Object(u["p"])(),Object(u["d"])("div",null,[Object(u["I"])(Object(u["g"])("input",{type:"text","onUpdate:modelValue":t[1]||(t[1]=function(e){return o.valueModel=e})},null,512),[[u["F"],o.valueModel]])])}var o={data:function(){return{valueModel:"South Korea"}}};o.render=a;t["default"]=o}}]);
+//# sourceMappingURL=databindinginputtext.3031e8aa.js.map

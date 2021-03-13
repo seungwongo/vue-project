@@ -22,6 +22,7 @@ export default {
   mounted() {
     // Kakao.init('c2875030d590c5acc4f04aa15597bab4');
     // Kakao.isInitialized();
+    this.kakaoLogout();
   },
   methods: {
     kakaoLogin() {
@@ -74,18 +75,25 @@ export default {
             }
         })
     },
-    async login(kakao_account) {
-      await this.$api("/api/login", {
-        param:[
-          {email:kakao_account.email, nickname:kakao_account.profile.nickname, gender:kakao_account.gender},
-          {nickname:kakao_account.profile.nickname, gender:kakao_account.gender}
-          ]
-      });
+    kakaoLogout(){
+     window.Kakao.Auth.logout((response) => {
+       //로그아웃
+       console.log(response);
+     });
+   }
 
-      this.$store.commit("user",kakao_account);
+    // async login(kakao_account) {
+    //   await this.$api("/api/login", {
+    //     param:[
+    //       {email:kakao_account.email, nickname:kakao_account.profile.nickname, gender:kakao_account.gender},
+    //       {nickname:kakao_account.profile.nickname, gender:kakao_account.gender}
+    //       ]
+    //   });
+
+    //   this.$store.commit("user",kakao_account);
       
-      this.$router.push({ path: 'test'});
-    }
+    //   this.$router.push({ path: 'test'});
+    // }
   }
 }
 </script>
