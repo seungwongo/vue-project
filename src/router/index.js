@@ -231,6 +231,11 @@ const routes = [{
     component: () => import( /* webpackChunkName: "composition_provide" */ '../views/CompositionAPIProvide.vue')
   },
   {
+    path: '/customdirective',
+    name: 'CustomDirective',
+    component: () => import( /* webpackChunkName: "composition_provide" */ '../views/CustomDirective.vue')
+  },
+  {
     path: '/mixins',
     name: 'Mixins',
     component: () => import( /* webpackChunkName: "mixins" */ '../views/Mixins.vue')
