@@ -1,11 +1,13 @@
-<template></template>
+<template>
+  <input type="text" @keydown.tab.prevent="callTab" />
+</template>
 <script>
 export default {
-  name: '',
+  name: "",
   components: [],
   data() {
     return {
-      sampleData: ''
+      sampleData: "",
     };
   },
   beforeCreate() {},
@@ -14,8 +16,12 @@ export default {
   mounted() {},
   beforeUpdate() {},
   updated() {},
-  beforeUnmount(){},
+  beforeUnmount() {},
   unmounted() {},
-  methods: {}
-}
+  methods: {
+    callTab() {
+      console.log("tab event");
+    },
+  },
+};
 </script>

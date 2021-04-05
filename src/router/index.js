@@ -46,6 +46,11 @@ const routes = [{
     component: () => import( /* webpackChunkName: "kakaologin" */ '../views/KakaoLogin.vue')
   },
   {
+    path: '/login',
+    name: 'KakaoLogin',
+    component: () => import( /* webpackChunkName: "kakaologin" */ '../views/KakaoLogin.vue')
+  },
+  {
     path: '/naverlogin',
     name: 'NaverLogin',
     component: () => import( /* webpackChunkName: "naverlogin" */ '../views/NaverLogin.vue')
@@ -154,6 +159,11 @@ const routes = [{
     path: '/eventchange',
     name: 'EventChange',
     component: () => import( /* webpackChunkName: "eventchange" */ '../views/EventChange.vue')
+  },
+  {
+    path: '/eventbinding',
+    name: 'EventBinding',
+    component: () => import( /* webpackChunkName: "eventbinding" */ '../views/EventBinding.vue')
   },
   {
     path: '/computed',
